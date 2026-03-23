@@ -3,13 +3,14 @@ export class Person {
     public name: string;
     public address: string;
 
-    constructor() {
-        this.name = 'Santi';
-        this.address = 'Coronado'
+    constructor(
+        public name: string, public address?: string = "No address") {
+            this.name = name;
+            this.address = address;
     }
 }  
 
-const ironman = new Person();
+const ironman = new Person('Ironman', 'New York');
 
 
 console.log(ironman);

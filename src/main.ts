@@ -9,6 +9,8 @@ import './topics/08-Clases'
 
 import './topics/10-decorators'
 
+import './topics/11-optional-chaining'
+
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
 app.innerHTML = 'Hola Mundooooo'

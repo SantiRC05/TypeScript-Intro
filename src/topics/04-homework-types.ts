@@ -2,7 +2,7 @@
     ===== Código de TypeScript =====
 */
 
-interface SuperHero {
+export interface SuperHero {
     name: string;
     age: number;
     address: Address
@@ -32,7 +32,3 @@ const superHeroe: SuperHero = {
 const address = superHeroe.showAddress();
 console.log( address );
 
-
-
-
-export {};

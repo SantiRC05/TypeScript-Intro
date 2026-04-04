@@ -15,6 +15,9 @@ import './topics/10-decorators'
 
 import './topics/11-optional-chaining'
 
+
+import './topics/07-import-export'
+
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
 app.innerHTML = 'Hola Mundooooo'
